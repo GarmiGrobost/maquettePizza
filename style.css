@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#F6ECEC;
+    font-family: "Fira sans", sans-serif;   
+}
+
+.page {
+    margin: 1rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+ /* ENTETE */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_titre{
+    display: flex;
+    width: 200px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+nav{
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.commande{
+    padding-top: 20px;
+}
+
+.commande i{
+    margin-right: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #00240f;
+}
+
+nav ul li a.active{
+    color: #EC0000;
+}
+   /* SECTION DESCRIPTION */
+.commande button{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #EC0000;
+    color: white;
+    padding: 7px;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description h2{
+    font-size: 50px;   
+}
+ .description p{
+    font-size: 36px; 
+ }
+
+ .description button{
+     color: white;
+     background: #EC0000;
+     box-shadow: -10px 20px 40px rgba(236, 0, 0, 0.16);
+     border-radius: 25px;
+     padding: 10px;
+     border: none;
+ }
+
+
+ /* SECTION MENU */
+.section-menu{
+    margin-top: 70px;
+}
+
+.section-menu h2{
+    text-align: center;
+    font-size: 36px;
+}
+ .conteneur-menu {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .menu{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #BDBDBD;
+    border-radius: 180px 180px 30px 30px;
+    cursor: pointer;
+    transition: all 1s ease;
+ }
+.menu:hover{
+    box-shadow: -10px 20px 40px -1px rgba(0, 0, 0, 0.2);
+}
+ .titre-carte{
+     font-weight: bold;
+ }
+
+ .description-carte{
+     font-size: 10px;
+ }
+
+ .prix {
+     color: #05A84B;
+    font-weight: bold;
+ }
+
+ select{
+     width: 60%;
+     border-radius: 20px;
+     padding: 5px;
+ }
+
+ .menu button{
+     width: 60%;
+     background: #EC0000;
+     color: #fff;
+     border-radius: 20px;
+     padding: 5px;
+     border: none;
+ }

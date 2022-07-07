@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Time</title>
+</head>
+<body>
+  <div class="page">
+      <!-- HEADER -->
+    <header>
+        <div class="logo_titre">
+            <img src="./images/MicrosoftTeams-image.png" alt="logo">
+            <h1>Pizza Time</h1>
+        </div>
+        <nav>
+           <ul>
+               <li><a class="active" href="#">Home</a></li>
+               <li><a href="menu.html">Menu</a></li>
+               <li><a href="promo.html">Promo</a></li>
+           </ul>
+           <div class="commande">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                <button>SIGN IN</button>
+           </div>
+        </nav>
+    </header>
+    <!-- SECTION DESCRIPTION -->
+    <section class="description">
+        <div class="gauche-description">
+            <h2>Friday pizza!</h2>
+            <p>Time to enjoy our delicious pizza.</p>
+            <button>ORDER NOW</button>
+        </div>
+        <div class="w-50">
+            <img src="./images/margherita-pizza 2.jpg" alt="margherita-pizza">
+        </div>
+    </section>
+    <!-- SECTION MENU -->
+    <section class="section-menu">
+        <h2>Recommended menu</h2>
+        <div class="conteneur-menu">
+            <div class="menu">
+                <img src="./images/pizza 1.png" alt="pizza-cheese">
+                <p class="titre-carte">Cheese Lover</p>
+                <p class="description-carte">Combination of Alfredo sauce and two<br> cheeses – Romano, and Parmesan.</p>
+                <p class="prix">$20.00</p>
+                <select name="pizza" id="pizza">
+                    <option value="Regular">Regular</option>
+                </select>
+                <br>
+                <button>ADD TO CART</button>
+            </div>
+            <div class="menu">
+                <img src="./images/pizza 2.png" alt="pizza-cheese">
+                <p class="titre-carte">Pepperoni Pizza</p>
+                <p class="description-carte">Pizza with homemade spicy beef<br> sausage</p>
+                <p class="prix">$25.00</p>
+                <select name="pizza" id="pizza">
+                    <option value="Regular">Regular</option>
+                </select>
+                <br>
+                <button>ADD TO CART</button>
+            </div>
+            <div class="menu">
+                <img src="./images/pizza 3.png" alt="pizza-cheese">
+                <p class="titre-carte">Margherita Pizza</p>
+                <p class="description-carte">Made with San Marzano tomatoes,<br> mozzarella cheese, and fresh basil.</p>
+                <p class="prix">$35.00</p>
+                <select name="pizza" id="pizza">
+                    <option value="Regular">Regular</option>
+                </select>
+                <br>
+                <button>ADD TO CART</button>
+            </div>
+        </div>
+    </section>
+  </div>
+</body>
+</html>
